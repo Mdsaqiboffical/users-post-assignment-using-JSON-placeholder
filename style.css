@@ -1,0 +1,35 @@
+#cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.post-cards {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.post-cards h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.post-cards h4 {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+.post-cards p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+    color: #666;
+}
